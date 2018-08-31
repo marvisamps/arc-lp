@@ -1,0 +1,13 @@
+footer.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  ul {
+    margin-bottom: 0;
+    li.list-inline-item {
+      a {
+        font-size: 1rem;
+        color: $gray-600;
+      }
+    }
+  }
+}

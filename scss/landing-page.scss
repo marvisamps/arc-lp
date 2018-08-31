@@ -1,0 +1,17 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "masthead.scss";
+@import "showcase.scss";
+@import "features";
+@import "testimonials.scss";
+@import "pricing.scss";
+@import "social-medias.scss";
+@import "footer.scss";
+
+body {
+  overflow-x: hidden;
+}

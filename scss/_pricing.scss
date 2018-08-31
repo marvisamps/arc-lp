@@ -1,0 +1,64 @@
+.pricing {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  h2 {
+    font-size: 1.5rem;
+    @media (min-width: 992px) {
+      font-size: 2rem;
+    }
+  }
+  p.lead {
+    font-size: 1rem;
+  }
+  .card-pricing-area {
+    background-color: $white;
+    @media (min-width: 992px) {
+      width: 100%;
+    }
+    .card-pricing {
+      h3 {
+        font-size: 1.25rem;
+        color: $white;
+        background-color: $blue;
+        @media (min-width: 992px) {
+          font-size: 1.75rem;
+        }
+      }
+      p {
+        &.price {
+          font-weight: bold;
+          font-size: 1.25rem;
+          @media (min-width: 992px) {
+            font-size: 2.75rem;
+          }
+        }
+        &.bb {
+          border-bottom: 1px solid #c2c2c2;
+        }
+        span {
+          text-decoration: none;
+          position: absolute;
+          margin-top: 0.3rem;
+          margin-left: 0.1rem;
+          font-size: 0.7rem;
+          @media (min-width: 992px) {
+            font-size: 1rem;
+            margin-top: 0.75rem;
+          }
+        }
+      }
+    }
+    .area-button {
+      background-color: $blue;
+      button {
+        background-color: $darkblue;
+        border: none;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.8rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
