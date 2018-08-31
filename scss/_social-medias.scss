@@ -1,0 +1,26 @@
+section.social-medias {
+  h2 {
+    font-size: 1.5rem;
+    @media (min-width: 992px) {
+      font-size: 2rem;
+    }
+  }
+  p.lead {
+    font-size: 1rem;
+  }
+  .circle-features-icons {
+    display: block;
+    border-radius: 50%;
+    background-color: $gray-500;
+    width: 2rem;
+    height: 2rem;
+    &:hover {
+      text-decoration: none;
+      background-color: $blue;
+    }
+    i {
+      color: $white;
+      line-height: 2rem;
+    }
+  }
+}

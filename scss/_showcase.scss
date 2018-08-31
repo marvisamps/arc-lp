@@ -1,0 +1,48 @@
+.showcase {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media (min-width: 992px) {
+    height: 420px;
+  }
+  .video-height {
+    @media (min-width: 992px) {
+      height: 310px;
+    }
+  }
+  .showcase-text {
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      @media (min-width: 992px) {
+        text-align: left;
+        font-size: 2rem;
+      }
+    }
+    p.lead {
+      font-size: 1rem;
+      text-align: center;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      color: $gray-700;
+      @media (min-width: 992px) {
+        text-align: left;
+        padding: 0;
+      }
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 15px;
+      li {
+        i {
+          color: $black;
+        }
+        color: $gray-700;
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .showcase-text {
+      padding-left: 7rem;
+    }
+  }
+}

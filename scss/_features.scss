@@ -1,0 +1,96 @@
+.features-icons {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    &.title-feature {
+      text-align: left;
+      @media (min-width: 992px) {
+        text-align: center;
+      }
+    }
+  }
+  p.lead {
+    font-size: 1rem;
+    &.dscp-feature {
+      text-align: left;
+      @media (min-width: 992px) {
+        text-align: center;
+      }
+    }
+  }
+  .icon-border {
+    position: absolute;
+    background-color: $gray-400;
+    &.right {
+      right: 0;
+      margin-bottom: 10%;
+      height: 90%;
+      width: 1px;
+      &.down {
+        margin-bottom: 0;
+        margin-top: 5%;
+      }
+    }
+    &.bottom {
+      bottom: 0;
+      margin: 0 10%;
+      height: 1px;
+      width: 80%;
+    }
+    &.left {
+      left: 0;
+      margin-bottom: 10%;
+      height: 90%;
+      width: 1px;
+    }
+  }
+  .area-icon {
+    float: left;
+    width: 20%;
+    @media (min-width: 992px) {
+      width: 100%;
+      padding: 0 3rem;
+    }
+  }
+  .area-icon-dscp {
+    float: left;
+    width: 80%;
+    @media (min-width: 992px) {
+      width: 100%;
+      padding: 0 3rem;
+    }
+  }
+  i {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 2rem;
+    width: 2rem; 
+    &.icon-flat-design {
+     background-image: url('../img/icon_01.svg');
+    }
+    &.icon-marketable {
+      background-image: url('../img/icon_02.svg');
+    }
+    &.icon-edit-photos {
+      background-image: url('../img/icon_03.svg');
+    }
+    &.icon-edit-colors {
+      background-image: url('../img/icon_04.svg');
+    }
+    &.icon-user-friendly {
+      background-image: url('../img/icon_05.svg');
+    }
+    &.icon-one-hundred-editable {
+      background-image: url('../img/icon_06.svg');
+    }
+    @media (min-width: 992px) {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  }
+}
