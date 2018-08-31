@@ -11,12 +11,12 @@
 To begin using this landing follow these steps to get started:
 * Clone the repo
 * npm i
-* gulp dev
+* gulp vendor
 
 
 ### Usage
 
-After cloning, run `npm install` and then run `gulp dev`, which will open the landing page in your default browser. Watch for changes to core files, and it will live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included in the dev environment.
+After cloning, run `npm install` and then run `gulp vendor` to load all dependencies, and after run `gulp dev` which will open the landing page in your default browser. Watch for changes to core files, and it will live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included in the dev environment.
 
 
 #### Gulp Tasks
